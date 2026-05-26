@@ -1,0 +1,5 @@
+{
+  "verdict": "PROHIBITED",
+  "applicable_rules": ["R-026-005", "R-026-008"],
+  "overridden_rules": ["R-026-001"]
+}

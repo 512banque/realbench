@@ -1,0 +1,45 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PHP / Laravel
+**/vendor/
+**/composer.lock
+**/.phpunit.cache/
+**/.phpunit.result.cache
+**/storage/logs/*.log
+**/storage/framework/cache/data/
+**/storage/framework/sessions/
+**/storage/framework/views/
+**/storage/framework/testing/
+**/bootstrap/cache/*.php
+
+# Node
+**/node_modules/
+
+# Bench-specific: raw per-run artifacts and post-run workspaces.
+# results/runs.jsonl is kept (it's the published matrix of outcomes).
+results/raw/
+results/workspaces/
+results/*.log
+results/*.err
+results/**/*.log
+results/**/*.err
+results/parallel/
+results/parallel-*/
+results/experiments/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local env files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Local API keys (never commit)
+.openai

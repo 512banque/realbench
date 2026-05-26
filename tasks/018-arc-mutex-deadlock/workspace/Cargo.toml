@@ -1,0 +1,15 @@
+[package]
+name = "arc_mutex_deadlock"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "arc_mutex_deadlock"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile.release]
+opt-level = 3
